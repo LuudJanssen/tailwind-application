@@ -1,58 +1,46 @@
 import javascript from "@eslint/js";
 import prettier from "eslint-config-prettier";
 import eslintComments from "eslint-plugin-eslint-comments";
-import imports from "eslint-plugin-import";
 import jsxAccessibility from "eslint-plugin-jsx-a11y";
 import react from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
 import unicorn from "eslint-plugin-unicorn";
 import typescript from "typescript-eslint";
 
-const typescriptConfigs = typescript.configs.recommended;
-
 /** @type {import("eslint").Linter.FlatConfig[]} */
 const config = [
+  ...typescript.configs.recommended,
   unicorn.configs["flat/recommended"],
   {
     files: ["src/**/*.{js,jsx,ts,tsx}"],
     plugins: {
-      import: imports,
       "eslint-comments": eslintComments,
-    },
-    settings: {
-      "import/parsers": {
-        "@typescript-eslint/parser": [".ts", ".tsx"],
-      },
-      "import/resolver": {
-        typescript: {
-          alwaysTryTypes: true,
-        },
-        node: true,
-      },
+      react,
+      "react-hooks": reactHooks,
+      "jsx-a11y": jsxAccessibility,
     },
     languageOptions: {
       parserOptions: {
         sourceType: "module",
         project: true,
+        ecmaFeatures: {
+          jsx: true,
+        },
       },
     },
     rules: {
       ...javascript.configs.recommended.rules,
-      ...imports.configs.recommended.rules,
       ...eslintComments.configs.recommended.rules,
+      ...react.configs["jsx-runtime"].rules,
+      ...reactHooks.configs.recommended.rules,
+      ...jsxAccessibility.configs.recommended.rules,
+
+      // When using React's memo we do want to allow named functions because they
+      // will automatically show up with component names in the debug tools.
+      "prefer-arrow-callback": ["error", { allowNamedFunctions: true }],
 
       // Prevent the common mistake of adding `console.log` in production code.
       "no-console": "error",
-
-      // Prefer named exports.
-      "import/prefer-default-export": "off",
-      "import/no-default-export": "error",
-
-      // Warn when importing `devDependencies` in production code.
-      "import/no-extraneous-dependencies": "error",
-
-      // Prevent exporting `var` or `let` variables.
-      "import/no-mutable-exports": "error",
 
       // We allow Array#reduce because sometimes it's the most readable syntax.
       "unicorn/no-array-reduce": "off",
@@ -109,30 +97,6 @@ const config = [
           fixStyle: "separate-type-imports",
         },
       ],
-    },
-  },
-  {
-    files: ["src/**/*.{jsx,tsx}"],
-    plugins: {
-      react,
-      "react-hooks": reactHooks,
-      "jsx-a11y": jsxAccessibility,
-    },
-    languageOptions: {
-      parserOptions: {
-        ecmaFeatures: {
-          jsx: true,
-        },
-      },
-    },
-    rules: {
-      ...react.configs["jsx-runtime"].rules,
-      ...reactHooks.configs.recommended.rules,
-      ...jsxAccessibility.configs.recommended.rules,
-
-      // When using React's memo we do want to allow named functions because they
-      // will automatically show up with component names in the debug tools.
-      "prefer-arrow-callback": ["error", { allowNamedFunctions: true }],
 
       // Enforce components to be small atoms by limiting their JSX component
       // depth.
@@ -144,7 +108,6 @@ const config = [
       ],
     },
   },
-  ...typescriptConfigs,
   prettier,
 ];
 
