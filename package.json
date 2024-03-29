@@ -2,19 +2,43 @@
   "name": "tailwind-application",
   "version": "1.0.0",
   "description": "My personal application for the position of Staff Software Engineer at Tailwind Labs.",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "clean": "pnpm run \"/^clean:.*/\"",
+    "clean:build": "rimraf dist",
+    "clean:cache": "rimraf node_modules/.cache",
+    "format": "pnpm run \"/^format:.*/\"",
+    "format:eslint": "eslint . --fix --cache --cache-location node_modules/.cache/eslint",
+    "format:prettier": "prettier --write . --cache",
+    "lint": "pnpm run \"/^lint:.*/\"",
+    "lint:eslint": "eslint . --cache --cache-location node_modules/.cache/eslint",
+    "lint:prettier": "prettier --check . --cache"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@react-pdf/renderer": "^3.4.2"
   },
   "devDependencies": {
+    "@eslint/js": "^8.57.0",
+    "@tsconfig/strictest": "^2.0.5",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-unicorn": "^51.0.1",
+    "globals": "^15.0.0",
     "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.4",
-    "prettier-plugin-packagejson": "^2.4.13"
+    "prettier-plugin-packagejson": "^2.4.13",
+    "typescript-eslint": "^7.4.0"
   }
 }
