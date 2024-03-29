@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-application",
+  "version": "1.0.0",
+  "description": "My personal application for the position of Staff Software Engineer at Tailwind Labs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-pdf/renderer": "^3.4.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "prettier-plugin-packagejson": "^2.4.13"
+  }
+}
