@@ -6,13 +6,13 @@
   "type": "module",
   "scripts": {
     "build": "pnpm run \"/^build:.*/\"",
-    "build:react": "tsx src/build.tsx",
+    "build:react": "tsx src/rendering/render.tsx",
     "build:tailwind": "tailwindcss -i src/app.css -o dist/app.css",
     "clean": "pnpm run \"/^clean:.*/\"",
     "clean:build": "rimraf dist",
     "clean:cache": "rimraf node_modules/.cache",
     "dev": "pnpm run \"/^dev:.*/\"",
-    "dev:react": "tsx watch src/build.tsx",
+    "dev:react": "tsx watch src/rendering/render.tsx",
     "dev:serve": "reload -d dist",
     "dev:tailwind": "tailwindcss -i src/app.css -o dist/app.css --watch",
     "format": "pnpm run \"/^format:.*/\"",
@@ -24,6 +24,7 @@
     "start": "serve dist"
   },
   "dependencies": {
+    "clsx": "^2.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
