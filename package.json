@@ -48,7 +48,9 @@
     "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.4",
     "prettier-plugin-packagejson": "^2.4.13",
+    "prettier-plugin-tailwindcss": "^0.5.13",
     "reload": "^3.2.1",
+    "rimraf": "^5.0.5",
     "tailwindcss": "^3.4.3",
     "tsx": "^4.7.1",
     "typescript-eslint": "^7.4.0"

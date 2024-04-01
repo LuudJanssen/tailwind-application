@@ -1,4 +1,9 @@
 /** @type {import("prettier").Config} */
 export default {
-  plugins: ["prettier-plugin-organize-imports", "prettier-plugin-packagejson"],
+  plugins: [
+    "prettier-plugin-organize-imports",
+    "prettier-plugin-packagejson",
+    "prettier-plugin-tailwindcss",
+  ],
+  tailwindFunctions: ["tailwind", "clsx"],
 };
