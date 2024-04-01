@@ -7,14 +7,14 @@
   "scripts": {
     "build": "pnpm run \"/^build:.*/\"",
     "build:react": "tsx src/rendering/render.tsx",
-    "build:tailwind": "tailwindcss -i src/app.css -o dist/app.css",
+    "build:tailwind": "tailwindcss --input src/app.css --output dist/app.css",
     "clean": "pnpm run \"/^clean:.*/\"",
     "clean:build": "rimraf dist",
     "clean:cache": "rimraf node_modules/.cache",
     "dev": "pnpm run \"/^dev:.*/\"",
     "dev:react": "tsx watch src/rendering/render.tsx",
     "dev:serve": "reload -d dist",
-    "dev:tailwind": "tailwindcss -i src/app.css -o dist/app.css --watch",
+    "dev:tailwind": "tailwindcss --watch --input src/app.css --output dist/app.css",
     "format": "pnpm run \"/^format:.*/\"",
     "format:eslint": "eslint . --fix --cache --cache-location node_modules/.cache/eslint",
     "format:prettier": "prettier --write . --cache",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^8.57.0",
-    "@tailwindcss/cli": "4.0.0-alpha.11",
+    "@tailwindcss/cli": "^0.1.2",
     "@tsconfig/strictest": "^2.0.5",
     "@types/eslint__js": "^8.42.3",
     "@types/fs-extra": "^11.0.4",
@@ -49,7 +49,7 @@
     "prettier-plugin-organize-imports": "^3.2.4",
     "prettier-plugin-packagejson": "^2.4.13",
     "reload": "^3.2.1",
-    "tailwindcss": "4.0.0-alpha.11",
+    "tailwindcss": "^3.4.3",
     "tsx": "^4.7.1",
     "typescript-eslint": "^7.4.0"
   }
