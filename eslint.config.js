@@ -60,6 +60,13 @@ const config = [
       // of objects when spreading. -> ts(2698)
       "unicorn/no-useless-fallback-in-spread": "off",
 
+      // Some abbreviations are fine, like `props` in React components.
+      "unicorn/prevent-abbreviations": ["error", {
+        allowList: {
+          props: true
+        }
+      }]
+
       // Enabling this rule does two things, 1) it cleans up our code by
       // requiring the use of boolean types in expressions and 2) prevents errors
       // using the common `expression && <Component />` syntax in JSX.
