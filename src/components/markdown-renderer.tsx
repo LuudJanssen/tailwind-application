@@ -9,7 +9,7 @@ export function MarkdownRenderer(props: MarkdownRendererProps): JSX.Element {
   const { children } = props;
 
   return (
-    <div className="prose prose-slate lg:prose-lg">
+    <div className="prose prose-slate mx-auto lg:prose-lg">
       <Markdown>{children}</Markdown>
     </div>
   );

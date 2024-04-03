@@ -2,7 +2,7 @@ import { CalendarIcon, MapPinIcon } from "@heroicons/react/24/outline";
 import { tailwind } from "../utils/tailwind.js";
 
 const Container = tailwind.div(
-  "container mx-auto flex flex-col items-center gap-8 px-4 md:flex-row md:px-8",
+  "container mx-auto flex flex-col items-center justify-center gap-8 px-4 md:flex-row md:px-8",
 );
 
 const Image = tailwind.img("max-w-80 mix-blend-multiply md:w-1/2");
