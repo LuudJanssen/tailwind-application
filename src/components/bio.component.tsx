@@ -53,7 +53,7 @@ export function Bio() {
       </TextContainer>
 
       <Image
-        src="/public/picture-from-2016-do-not-use-for-applications-in-2024-just-because-its-a-nice-picture.jpg"
+        src="public/picture-from-2016-do-not-use-for-applications-in-2024-just-because-its-a-nice-picture.jpg"
         alt="A photo of Luud Janssen, a young caucasian male."
       />
     </Container>
