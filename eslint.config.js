@@ -61,11 +61,15 @@ const config = [
       "unicorn/no-useless-fallback-in-spread": "off",
 
       // Some abbreviations are fine, like `props` in React components.
-      "unicorn/prevent-abbreviations": ["error", {
-        allowList: {
-          props: true
-        }
-      }]
+      "unicorn/prevent-abbreviations": [
+        "error",
+        {
+          allowList: {
+            props: true,
+            Props: true,
+          },
+        },
+      ],
 
       // Enabling this rule does two things, 1) it cleans up our code by
       // requiring the use of boolean types in expressions and 2) prevents errors
@@ -88,6 +92,11 @@ const config = [
           allowAny: false,
         },
       ],
+
+      // This prevents ESLint from complaining about unused variables when
+      // writing Typescript types.
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": "error",
 
       // Since Typescript 5.0, it doesn't warn you when you don't specify the
       // type keyword in `import type { Type } from "x"` when importing a type

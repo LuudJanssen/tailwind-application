@@ -1,11 +1,13 @@
 import clsx, { type ClassValue } from "clsx";
-import { type ComponentType, type FunctionComponent } from "react";
+import type { ComponentType, FunctionComponent, JSX } from "react";
 import type {
   HTMLAttributesForTagName,
   HTMLElementTagName,
 } from "./html-types.js";
 
-type HTMLElementOrComponent = HTMLElementTagName | ComponentType<any>;
+type HTMLElementOrComponent =
+  | HTMLElementTagName
+  | ComponentType<WithClassname<unknown>>;
 
 type WithClassname<Props> = Props & {
   className?: string;
@@ -49,7 +51,8 @@ function createElementWithClassname<Component extends HTMLElementOrComponent>(
 
     const classes = clsx(...inputs, className);
 
-    // @ts-expect-error
+    // @ts-expect-error TypeScript doesn't seem to understand that only adding
+    // `className` to the props is valid.
     return <Component className={classes} {...htmlProps} />;
   }
 

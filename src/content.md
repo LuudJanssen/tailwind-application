@@ -1,4 +1,4 @@
-When I read the application for **Staff Software Engineer** I was shocked: I could get paid working for OSS while working with ASTs, bundlers, transpilers, Tailwind and TypeScript?!
+When I read the application for **Staff Software Engineer** I was shocked: I could get paid to work for OSS while working with ASTs, bundlers, transpilers, Tailwind and TypeScript?!
 
 After the initial shock settled down, I took a serious look at the position and got even more excited. My entire development career (dare I say, life?) I've been interested in the exact things that the Staff Software Engineer position is about. I've always been diving deep into the tools and the low-level parts of the web, I've ventured into open source (although admittedly not as much as I would've liked), I've had a passion for detail and quality and I've been using Tailwind for quite some time while focussing on DX for the teams I've led.
 

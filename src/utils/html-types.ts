@@ -1,3 +1,5 @@
+import type { JSX } from "react";
+
 /**
  * A list of string literal types representing the tag names of all valid HTML
  * elements.
