@@ -1,27 +1,39 @@
-When I read the application for **Staff Software Engineer** I was shocked: I could get paid to work for OSS while working with ASTs, bundlers, transpilers, Tailwind and TypeScript?!
+When I read the application for **Staff Software Engineer** I was shocked: I could get paid to work for OSS while working with ASTs, bundlers, transpilers, Tailwind, and TypeScript?!
 
-After the initial shock settled down, I took a serious look at the position and got even more excited. My entire development career (dare I say, life?) I've been interested in the exact things that the Staff Software Engineer position is about. I've always been diving deep into the tools and the low-level parts of the web, I've ventured into open source (although admittedly not as much as I would've liked), I've had a passion for detail and quality and I've been using Tailwind for quite some time while focussing on DX for the teams I've led.
+After the initial shock settled down, I took a more serious look at the position which grew my excitement even more. For as long as I can remember I have been diving deep into the tools that make the web, helping teams write their best code while meeting deadlines and focusing on finesse. Being able to combine all this with paid open-source work would be a dream.
 
-Thank you for taking the time to read my application. Please bear with me while we dive a little deeper into the interests mentioned above:
+This led me to take the long shot and apply for the job. So thank you for taking the time to read my application and please bear with me while we dive a little deeper into why I feel I would be a good addition to your team:
 
-1.  [Going deep](#going-deep)
-2.  [Open-source](#open-source)
-3.  [Chasing a "wow"](#chasing-a-wow)
-4.  [Culture](#culture)
-5.  [Tailwind](#tailwind)
-6.  [Conclusion](#conclusion)
+1.  [I love diving deep](#i-love-diving-deep)
+2.  [I have contributed to open-source](#i-have-contributed-to-open-source)
+3.  [I am always chasing a "wow"](#i-am-always-chasing-a-wow)
+4.  [I value company culture](#i-value-company-culture)
+5.  [I love Tailwind](#i-love-tailwind)
 
-## Going deep
+---
 
-My interest in development started at a very young age. I think I was around 10 when I started toying with PowerPoint. Yes, PowerPoint was my gateway drug into software development. I discovered you could create links to other slides, so I could present a user with a choice and take them to a different part of the storyline based on the choice they made. Combine this with the ability to create over-the-top animations and I was hooked.
+## I love diving deep
 
-To me, this illustrates that my general interest in using (or abusing) tools to create something new started from a very young age. Paired with a constant curiosity and a desire to understand how things work you might come to understand why software engineering was a natural fit for me.
+When I was around 10 years old, PowerPoint became my gateway drug into software development. I used it to create interactive slideshows that presented users with choices and took them to different parts of the storyline based on their choices.
 
-Skipping through high school (where I taught programming to fellow students), my time studying computer science at [Eindhoven University](https://www.tue.nl/en/), a startup, and 7 years of experience working at agencies, I'm currently leading an innovation project at [Incentro](https://incentro.com/) (my current employer), where we're building a toolset for developers to quickly build headless e-commerce sites.
+To me, this illustrates that my general interest in using (or abusing) tools to create something new started from a very young age. Paired with a constant curiosity and a desire to understand how things work you might come to understand why software engineering was a natural fit for me, leading to a fruitful career in the field:
 
-This project (called `micro.nova`) focuses on reusing the logic between e-commerce sites. So, where Tailwind and Tailwind UI help us with styling, and Headless UI helps us with functionality and accessibility, `micro.nova` will offer a set of reusable components that implement the data fetching and logic parts of an e-commerce site. My day-to-day work now involves working on CLI tools, manipulating GraphQL ASTs, writing extensive documentation, setting up build pipelines (in GH Actions), creating data-fetching tools for React, writing plugins for codegen tools like [GraphQL Codegen](https://the-guild.dev/graphql/codegen), etc.
+- During high school I taught programming to fellow students, while also creating a small business creating websites for local businesses.
+- I studied computer science at [Eindhoven University](https://www.tue.nl/en/) which added a theoretical foundation to my practical knowledge.
+- During this time, I co-founded a startup in web application security and later joined ISAAC (a dutch agency) where I worked as a front-end developer for 4 years.
 
-## Open-source
+I am currently employed at [Incentro](https://incentro.com/), another Dutch agency. During my 3 years here I have had led 3 front-end teams, as well as working on innovation project where we are building a toolset for developers to quickly build headless e-commerce sites.
+
+This project, called micro.nova, focuses on reusing the logic between e-commerce sites. So, where Tailwind and Tailwind UI help us with styling, and Headless UI helps us with functionality and accessibility, micro.nova will offer a set of reusable components that implement the data fetching and logic parts of an e-commerce site. My day-to-day work now involves working on things like:
+
+- CLI tools
+- manipulating GraphQL ASTs
+- writing extensive documentation
+- setting up build pipelines (in GH Actions)
+- creating data-fetching tools for React
+- writing plugins for codegen tools like [GraphQL Codegen](https://the-guild.dev/graphql/codegen)
+
+## I have contributed to open-source
 
 My developing interests in software engineering have been paired with contributions to open-source software:
 
@@ -30,11 +42,11 @@ My developing interests in software engineering have been paired with contributi
 - At Incentro, I open-sourced [an approach to improving localized routing in an older version of Next.js](https://github.com/LuudJanssen/next-locale-router), though I never got the approval from the client to provide suitable open-source licenses.
 - I recently created [a plugin for Remark to turn GitHub's alert syntax into admonitions directives](https://github.com/incentro-dc/remark-github-admonitions-to-directives) by simply manipulating the Markdown AST.
 
-Although I'm happy with my contributions to open-source, I've always felt like I could do more. The thought of open-source being a part of my job and making a real impact makes me excited.
+Although I am happy with my contributions to open-source, I have always felt like I could do more. I would love for open-source to be a more integral part of my job, and I think the Staff Software Engineer position at Tailwind Labs would be a great opportunity to do so.
 
-## Chasing a "wow"
+## I am always chasing a "wow"
 
-Whether it's perfecting a PowerPoint by adding interactivity and unexpected animations or using TypeScript generics to create a utility that's a joy to use, I've always been chasing that "wow" moment. That moment when you exceed someone's expectations by just a little bit. That moment when you've put in the extra effort to make something truly special.
+Whether it's perfecting a PowerPoint by adding interactivity and unexpected animations or using TypeScript generics to create a utility that's a joy to use, I have always been chasing that "wow" moment. That moment when you exceed someone's expectations by just a little bit. That moment when you've put in the extra effort to make something truly special.
 
 <figure>
   <img src="public/powerpoint-wow.gif" alt="An image showing a PowerPoint slideshow with some subtle but effective animations.">
@@ -43,34 +55,35 @@ Whether it's perfecting a PowerPoint by adding interactivity and unexpected anim
 
 Looking at both open positions, as well as the work your team has done, I can't help but feel that you recognize this drive and it's a shared value within the team. Not only do you create tools that work and add real value, but there's a certain amount of elegance and thoughtfulness in the way they were created. This is something I strive for in my work as well.
 
-This drive towards elegance has also forced me to create other skills, like using video editing skills for [an introduction video for the new brand](https://vimeo.com/302102524) of a student association. Or creating sound effects for a very small amateur theater production using FL Studio. Or the time I went overboard with renting equipment for [filming a corporate outing during my time at ISAAC](https://vimeo.com/280936509). Or that time I learned to manipulate SVGs to create customized digital tickets to streaming events:
+This drive towards elegance has also forced me to create other skills, like:
+
+- Using video editing skills for [an introduction video](https://vimeo.com/302102524) for the new brand of a student association.
+- Creating sound effects for a very small amateur theater production using FL Studio.
+- Going overboard with renting equipment for [filming a corporate outing during my time at ISAAC](https://vimeo.com/280936509).
+- Learning to manipulate SVGs to create customized digital tickets for streaming events.
 
 <figure>
   <img src="public/strealix-tickets.png" alt="An image showing a digital version of a physical ticket for a streaming event.">
-  <figcaption>Manipulating SVGs to create digital tickets for <a href="https://strealix.com/">Strealix</a>.</figcaption>
+  <figcaption>Manipulating SVGs to create digital tickets for <a href="https://strealix.com/">Strealix</a>, a platform for which I did the branding, design, and front-end all in the span of 3 weeks.</figcaption>
 </figure>
 
-> This was part of an awesome project where me and a team of 2 other devs created [an entire streaming platform](https://strealix.com/) in 3 weeks during the COVID-19 pandemic. It's far from perfect, but I'm proud of it because I managed to do the design, branding and front-end all by myself in 3 weeks.
+While my video editing skills are not on a professional level, I do think it highlights that I won't shy away from learning new things (like Rust) and going the extra mile to create something special.
 
-I wouldn't say these skills are my strong suits, there's a reason I'm applying for the position of Staff Software Engineer, but I do think they highlight that I won't shy away from learning new things (like Rust) and going the extra mile to create something special.
+## I value company culture
 
-## Culture
+I have mentioned my startup period before, and while it was a great experience overall, it taught me about the importance of a strong company culture by setting the wrong example. Work-life balance was non-existent, and I eventually left because of the way team members were treating each other.
 
-It might sound cheesy in the context of a job application, but I put great value on company culture and job impact.
+Since then I have been fortunate enough to work for some great companies with a strong focus on culture. At ISAAC, we were laser-focused on accessibility. Not because our customer was asking us to, but because it was the right thing to do.
 
-I've mentioned the startup period a few times, and while it was a great experience overall, it taught me a lot about company culture by setting the wrong example. Work-life balance was non-existent, and I eventually left because of the way team members were treating each other.
+At Incentro we have been a [Great Place to Work](https://www.greatplacetowork.nl/) for years in a row, we have an organizational structure built around cells (ensuring a flat hierarchy), a review process with peers, and complete transparency about salaries.
 
-Since then I've been fortunate enough to work for some great companies with a strong focus on culture. At ISAAC, we were laser-focused on accessibility. Not because our customer was asking us, but because it was the right thing to do. They also facilitated training from the Dutch accessibility foundation. At Incentro we have been a [Great Place to Work](https://www.greatplacetowork.nl/) for years in a row, we have an organizational structure built around cells (flat hierarchy), a review process with peers, and complete transparency about salaries.
+What excites me about working for Tailwind Labs is the ability to work on free and open-source tools that have a large impact, while also being a part of a profitable company. I love how you are making the conscious choice to be small and independent as I have been pushing back on the idea of endless growth within companies I have worked for.
 
-What excites me about working for Tailwind Labs is the ability to work on free and open-source tools that have a large impact, while also being a part of a profitable company. I won't shy away from saying that the listed salary would be a significant increase for me, but I intend to save most of it and use that to invest in my [moral ambition](https://www.moreleambitie.nl/) (a term coined by Dutch sociologist Rutger Bregman) later in life.
+## I love Tailwind
 
-## Tailwind
+I am a huge fan of Tailwind's utility-first approach and have been delighted to lead teams using Tailwind. I bought a Tailwind UI license as soon as I got a hold of the project, and I have been loving the concept of Headless UI ever since it was announced. I also created some utilities around Tailwind for use within our company, which I am preparing to open-source.
 
-Last but not least, I thought it would be important for me to highlight my love for and experience with Tailwind.
-
-Ever since Tailwind came out I've been a fan and over time I've defended the utility-first approach to many colleagues and I've led teams that decided to use Tailwind in their projects. I bought a Tailwind UI license as soon as I got a hold of the project, and I've been loving the concept of Headless UI ever since it was announced.
-
-I even went as far as creating some utilities around Tailwind for use within our company, which I still intend to open source. One of these utilities ([a component factory copying the styled-components syntax](https://github.com/luudjanssen/tailwind-application/blob/main/src/utils/tailwind.tsx)) was used to create this very application:
+One of these utilities ([a component factory copying the styled-components syntax](https://github.com/luudjanssen/tailwind-application/blob/main/src/utils/tailwind.tsx)) was used to create this very application:
 
 ```tsx [filename.test]
 import { CakeIcon, MapPinIcon } from "@heroicons/react/24/outline";
@@ -106,13 +119,13 @@ export function BioDetails() {
 }
 ```
 
-<small>An implementation of the `BioDetails` component using the `tailwind` utility.</small>
+This utility allows us to keep our JSX clean by moving the Tailwind classes outside of the JSX and allowing the spreading of Tailwind classes over multiple lines. Behind the scenes, there's some fancy TypeScript to make sure the generated components props match the HTML element attributes.
 
-This utility allowed us to keep our JSX clean by moving the Tailwind classes outside of the JSX and allowing the spreading of Tailwind classes over multiple lines. Behind the scenes, there's some fancy TypeScript to make sure the generated components props match the HTML element attributes. Be sure to check out [the source code](https://github.com/luudjanssen/tailwind-application/blob/main/src/utils/tailwind.tsx)!
+---
 
-## Conclusion
+## Wrapping up
 
-I hope this application has given you a good impression of who I am and what I can add to the Tailwind team. I'm excited about the opportunity to work for Tailwind Labs and I'm looking forward to hearing from you.
+I hope this application gave you a good impression of who I am and what I can add to the Tailwind team. I am excited about the opportunity to work for Tailwind Labs and I am looking forward to hearing from you.
 
 ~ Luud
 
