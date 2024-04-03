@@ -57,6 +57,10 @@ export function ApplicationLetter(props: ApplicationLetterProps): JSX.Element {
         <meta name="theme-color" content="#ffffff" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>
+          Luud Janssen - Staff Software Engineer Application @ Tailwind Labs
+        </title>
       </head>
 
       <Body>
