@@ -49,7 +49,7 @@ Although I am happy with my contributions to open-source, I have always felt lik
 Whether it's perfecting a PowerPoint by adding interactivity and unexpected animations or using TypeScript generics to create a utility that's a joy to use, I have always been chasing that "wow" moment. That moment when you exceed someone's expectations by just a little bit. That moment when you've put in the extra effort to make something truly special.
 
 <figure>
-  <img src="public/powerpoint-wow.gif" alt="An image showing a PowerPoint slideshow with some subtle but effective animations.">
+  <img src="powerpoint-wow.gif" alt="An image showing a PowerPoint slideshow with some subtle but effective animations.">
   <figcaption>I like taking the extra time to style my slideshows.</figcaption>
 </figure>
 
@@ -63,7 +63,7 @@ This drive towards elegance has also forced me to create other skills, like:
 - Learning to manipulate SVGs to create customized digital tickets for streaming events.
 
 <figure>
-  <img src="public/strealix-tickets.jpg" alt="An image showing a digital version of a physical ticket for a streaming event.">
+  <img src="strealix-tickets.jpg" alt="An image showing a digital version of a physical ticket for a streaming event.">
   <figcaption>Manipulating SVGs to create digital tickets for <a href="https://strealix.com/">Strealix</a>, a platform for which I did the branding, design, and front-end all in 3 weeks.</figcaption>
 </figure>
 
@@ -130,6 +130,6 @@ I hope this application gave you a good impression of who I am and what I can ad
 ~ Luud
 
 <figure>
-  <img src="public/picture-to-make-the-girlfriend-jealous.jpg" alt="A picture showing Luud and his cat Bami looking at each other.">
+  <img src="picture-to-make-the-girlfriend-jealous.jpg" alt="A picture showing Luud and his cat Bami looking at each other.">
   <figcaption>If you hire me, you get 2 for 1. My cat Bami is a mean programmer herself.</figcaption>
 </figure>
