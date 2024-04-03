@@ -5,5 +5,14 @@ const Container = tailwind.footer(
 );
 
 export function Footer() {
-  return <Container>Made with Tailwind</Container>;
+  return (
+    <Container>
+      <a
+        className="underline"
+        href="https://github.com/luudjanssen/tailwind-application"
+      >
+        Made with Tailwind
+      </a>
+    </Container>
+  );
 }
