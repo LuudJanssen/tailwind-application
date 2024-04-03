@@ -37,7 +37,7 @@ Although I'm happy with my contributions to open-source, I've always felt like I
 Whether it's perfecting a PowerPoint by adding interactivity and unexpected animations or using TypeScript generics to create a utility that's a joy to use, I've always been chasing that "wow" moment. That moment when you exceed someone's expectations by just a little bit. That moment when you've put in the extra effort to make something truly special.
 
 <figure>
-  <img src="/public/powerpoint-wow.gif" alt="An image showing a PowerPoint slideshow with some subtle but effective animations.">
+  <img src="public/powerpoint-wow.gif" alt="An image showing a PowerPoint slideshow with some subtle but effective animations.">
   <figcaption>I like taking the extra time to style my slideshows.</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ Looking at both open positions, as well as the work your team has done, I can't 
 This drive towards elegance has also forced me to create other skills, like using video editing skills for [an introduction video for the new brand](https://vimeo.com/302102524) of a student association. Or creating sound effects for a very small amateur theater production using FL Studio. Or the time I went overboard with renting equipment for [filming a corporate outing during my time at ISAAC](https://vimeo.com/280936509). Or that time I learned to manipulate SVGs to create customized digital tickets to streaming events:
 
 <figure>
-  <img src="/public/strealix-tickets.png" alt="An image showing a digital version of a physical ticket for a streaming event.">
+  <img src="public/strealix-tickets.png" alt="An image showing a digital version of a physical ticket for a streaming event.">
   <figcaption>Manipulating SVGs to create digital tickets for <a href="https://strealix.com/">Strealix</a>.</figcaption>
 </figure>
 
@@ -117,6 +117,6 @@ I hope this application has given you a good impression of who I am and what I c
 ~ Luud
 
 <figure>
-  <img src="/public/picture-to-make-the-girlfriend-jealous.jpg" alt="A picture showing Luud and his cat Bami looking at each other.">
+  <img src="public/picture-to-make-the-girlfriend-jealous.jpg" alt="A picture showing Luud and his cat Bami looking at each other.">
   <figcaption>If you hire me, you get 2 for 1. My cat Bami is a mean programmer herself.</figcaption>
 </figure>

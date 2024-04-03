@@ -19,7 +19,7 @@ export function ApplicationLetter(props: ApplicationLetterProps): JSX.Element {
   return (
     <html lang="en">
       <head>
-        <link href="/app.css" rel="stylesheet" />
+        <link href="app.css" rel="stylesheet" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
