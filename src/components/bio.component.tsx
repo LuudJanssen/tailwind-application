@@ -1,4 +1,4 @@
-import { CalendarIcon, MapPinIcon } from "@heroicons/react/24/outline";
+import { CakeIcon, MapPinIcon } from "@heroicons/react/24/outline";
 import { tailwind } from "../utils/tailwind.js";
 
 const Container = tailwind.div(
@@ -30,7 +30,7 @@ const Detail = tailwind.div(
 const details = [
   { icon: MapPinIcon, text: "The Netherlands (UTC+1)" },
   {
-    icon: CalendarIcon,
+    icon: CakeIcon,
     text: "27 years old",
   },
 ];
@@ -44,7 +44,7 @@ export function Bio() {
 
         <Details>
           {details.map((detail) => (
-            <Detail>
+            <Detail key={detail.text}>
               <detail.icon className="h-6 w-6 text-orange-500" />
               {detail.text}
             </Detail>
