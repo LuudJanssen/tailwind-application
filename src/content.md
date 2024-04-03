@@ -18,11 +18,11 @@ When I was around 10 years old, PowerPoint became my gateway drug into software 
 
 To me, this illustrates that my general interest in using (or abusing) tools to create something new started from a very young age. Paired with a constant curiosity and a desire to understand how things work you might come to understand why software engineering was a natural fit for me, leading to a fruitful career in the field:
 
-- During high school I taught programming to fellow students, while also creating a small business creating websites for local businesses.
+- During high school, I taught programming to fellow students, while also creating a small business creating websites for local businesses.
 - I studied computer science at [Eindhoven University](https://www.tue.nl/en/) which added a theoretical foundation to my practical knowledge.
-- During this time, I co-founded a startup in web application security and later joined ISAAC (a dutch agency) where I worked as a front-end developer for 4 years.
+- During this time, I co-founded a startup in web application security and later joined ISAAC (a Dutch agency) where I worked as a front-end developer for 4 years.
 
-I am currently employed at [Incentro](https://incentro.com/), another Dutch agency. During my 3 years here I have had led 3 front-end teams, as well as working on innovation project where we are building a toolset for developers to quickly build headless e-commerce sites.
+I am currently employed at [Incentro](https://incentro.com/), another Dutch agency. During my 3 years here I have led 3 front-end teams, as well as worked on an innovation project where we are building a toolset for developers to quickly build headless e-commerce sites.
 
 This project, called micro.nova, focuses on reusing the logic between e-commerce sites. So, where Tailwind and Tailwind UI help us with styling, and Headless UI helps us with functionality and accessibility, micro.nova will offer a set of reusable components that implement the data fetching and logic parts of an e-commerce site. My day-to-day work now involves working on things like:
 
@@ -63,8 +63,8 @@ This drive towards elegance has also forced me to create other skills, like:
 - Learning to manipulate SVGs to create customized digital tickets for streaming events.
 
 <figure>
-  <img src="public/strealix-tickets.png" alt="An image showing a digital version of a physical ticket for a streaming event.">
-  <figcaption>Manipulating SVGs to create digital tickets for <a href="https://strealix.com/">Strealix</a>, a platform for which I did the branding, design, and front-end all in the span of 3 weeks.</figcaption>
+  <img src="public/strealix-tickets.jpg" alt="An image showing a digital version of a physical ticket for a streaming event.">
+  <figcaption>Manipulating SVGs to create digital tickets for <a href="https://strealix.com/">Strealix</a>, a platform for which I did the branding, design, and front-end all in 3 weeks.</figcaption>
 </figure>
 
 While my video editing skills are not on a professional level, I do think it highlights that I won't shy away from learning new things (like Rust) and going the extra mile to create something special.
