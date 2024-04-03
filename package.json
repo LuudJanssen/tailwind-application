@@ -13,7 +13,7 @@
     "clean:build": "rimraf dist",
     "clean:cache": "rimraf node_modules/.cache",
     "dev": "pnpm run \"/^dev:.*/\"",
-    "dev:copy": "nodemon --watch public --watch src/build/copy.tsx --ext png,jpg,svg,tsx --import tsx src/build/copy.tsx",
+    "dev:copy": "nodemon --watch public --watch src/build/copy.tsx --ext \".\" --import tsx src/build/copy.tsx",
     "dev:react": "nodemon --watch src --ext js,jsx,ts,tsx,md,css --import tsx src/build/render.tsx",
     "dev:serve": "reload --dir dist",
     "dev:tailwind": "tailwindcss --watch --input src/app.css --output dist/app.css",
