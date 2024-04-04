@@ -19,6 +19,13 @@ export function ApplicationLetter(props: ApplicationLetterProps): JSX.Element {
   return (
     <html lang="en">
       <head>
+        <link
+          rel="preload"
+          href="picture-from-2016-do-not-use-for-applications-in-2024-just-because-its-a-nice-picture.jpg"
+          as="image"
+        />
+
+        <link rel="preload" href="app.css" as="style" />
         <link href="app.css" rel="stylesheet" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,7 +37,7 @@ export function ApplicationLetter(props: ApplicationLetterProps): JSX.Element {
         />
 
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap&subset=latin"
           rel="stylesheet"
         />
 

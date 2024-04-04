@@ -55,6 +55,10 @@ export function Bio() {
       <Image
         src="picture-from-2016-do-not-use-for-applications-in-2024-just-because-its-a-nice-picture.jpg"
         alt="A photo of Luud Janssen, a young caucasian male."
+        decoding="async"
+        fetchpriority="high"
+        width="800"
+        height="672"
       />
     </Container>
   );

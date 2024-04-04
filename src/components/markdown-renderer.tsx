@@ -35,6 +35,17 @@ const components: Components = {
       </SyntaxHighlighter>
     );
   },
+  img(props) {
+    // We want to remove the `node` prop from the img element
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { node, ...imgProps } = props;
+
+    return (
+      // Alt text is added via `{...props}
+      // eslint-disable-next-line jsx-a11y/alt-text
+      <img decoding="async" fetchpriority="low" loading="lazy" {...imgProps} />
+    );
+  },
 };
 
 export function MarkdownRenderer(props: MarkdownRendererProps): JSX.Element {

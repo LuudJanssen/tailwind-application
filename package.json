@@ -8,7 +8,7 @@
     "build": "pnpm run \"/^build:.*/\"",
     "build:copy": "tsx src/build/copy.tsx",
     "build:react": "tsx src/build/render.tsx",
-    "build:tailwind": "tailwindcss --input src/app.css --output dist/app.css",
+    "build:tailwind": "tailwindcss --input src/app.css --output dist/app.css --minify",
     "clean": "pnpm run \"/^clean:.*/\"",
     "clean:build": "rimraf dist",
     "clean:cache": "rimraf node_modules/.cache",
@@ -62,6 +62,7 @@
     "prettier-plugin-tailwindcss": "^0.5.13",
     "reload": "^3.2.1",
     "rimraf": "^5.0.5",
+    "serve": "^14.2.1",
     "tailwindcss": "^3.4.3",
     "tsx": "^4.7.1",
     "typescript-eslint": "^7.4.0"
